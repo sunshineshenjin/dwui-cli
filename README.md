@@ -4,6 +4,10 @@ dwui cli
 - 全局安装
 > npm install -g dwui-cli
 
+- 更新cli
+
+> npm update -g dwui-cli
+
 - 创建工程
 
 > dwui create
@@ -24,10 +28,12 @@ cli-config.json 文件，将配置项修改为自己的npm cli 路径和自己�
             templateListInfoUrl: 模板文件信息
 
 - 参考说明
- 主要fork : https://www.npmjs.com/package/asuna-cli 及其文章，感谢
- 部分参考： https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli
+ >主要fork : https://www.npmjs.com/package/asuna-cli 及其文章，感谢
+
+> 部分参考： https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli
  
- 其实 vue-cli和我们这种实现是不同的，它的逻辑复杂的多，包括使用命令行插件执行 npm install 工作，我们这种简单直接。
+     其实 vue-cli和我们这种实现是不同的，它的逻辑复杂的多，包括使用命令行插件执行 npm install 工作，我们这种简单直接。
  
  - github
+ 
  https://github.com/sunshineshenjin/dwui-cli
