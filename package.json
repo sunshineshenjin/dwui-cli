@@ -1,6 +1,6 @@
 {
   "name": "dwui-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a dwui cli ",
   "bin": {
     "dwui": "bin/dwui.js"
@@ -32,6 +32,7 @@
   "files": [
     "bin",
     "lib",
+    "config",
     "README.md"
   ]
 }
